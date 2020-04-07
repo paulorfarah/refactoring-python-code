@@ -98,22 +98,22 @@ class Product:
         pass
 
 
-class SelfService(Product):
+#class SelfService(Product):
 
-    def get_price(self):
-        return self.base_price
-
-
-class Discounted(Product):
-
-    def get_price(self):
-        return self.base_price * self.discount
+#    def get_price(self):
+#        return self.base_price
 
 
-class Enterprise(Product):
+#class Discounted(Product):
 
-    def get_price(self):
-        return self.base_price * self.discount + self.service_revenue
+#    def get_price(self):
+#        return self.base_price * self.discount
+
+
+#class Enterprise(Product):
+
+#    def get_price(self):
+#        return self.base_price * self.discount + self.service_revenue
 
 
 # later on..
